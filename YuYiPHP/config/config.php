@@ -34,7 +34,9 @@ return array(
     'cache_start' => false,
 
     'cache_life_time' => 60,
-    
+
+    'open_start_domain' => false,
+
     'aliases' => array(
         'Config' => 'System\Support\Facades\Config',
         'Log' => 'System\Support\Facades\Log',
